@@ -97,6 +97,11 @@ a {
     justify-content: space-evenly;
   }
 
+  .uch_rab_obertka {
+    width: 100%;
+
+  }
+
   .menuElement {
     padding: 5px;
     text-transform: uppercase;
@@ -187,6 +192,10 @@ a {
     margin-right: 10%;
   }
 
+  .uch_rab_obertka {
+    width: 80%;
+
+  }
   .menuElement {
     padding: 5px;
     text-transform: uppercase;
@@ -215,6 +224,10 @@ a {
     text-transform: uppercase;
     text-align: center;
     font-size: 14pt;
+  }
+
+  .uch_rab_obertka {
+    width: 80%;
   }
 
   .container1 {
@@ -357,6 +370,11 @@ a {
     text-transform: uppercase;
     text-align: right;
     font-size: 14pt;
+  }
+
+    .uch_rab_obertka {
+    width: 90%;
+
   }
 
   .container1 {
@@ -523,12 +541,17 @@ a {
 .value {
   font-size: 16pt;
   text-align: right;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .obertka {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 .container3 {
