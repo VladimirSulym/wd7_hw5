@@ -18,9 +18,8 @@ a {
 }
 
 @media screen and (min-width: 1200px) {
-
   /* начало меню*/
-  
+
   .menu-link,
   .menu-opener,
   .menu-opener:hover,
@@ -35,7 +34,7 @@ a {
     transition-timing-function: ease-out;
   }
 
-    .menu {
+  .menu {
     background: rgba(95, 158, 160, 1);
     height: 50px;
     position: fixed;
@@ -46,7 +45,7 @@ a {
     z-index: 1;
   }
 
-   .menu-inner {
+  .menu-inner {
     display: flex;
     flex-direction: row;
     height: 100%;
@@ -54,7 +53,6 @@ a {
     margin: 0;
     padding: 0;
   }
-
 
   .menu-link {
     color: rgb(36, 33, 33);
@@ -81,7 +79,7 @@ a {
     color: rgba(95, 158, 160, 1) !important;
   }
 
-/* конец меню*/
+  /* конец меню*/
 
   .myBodyStyle {
     position: relative;
@@ -99,7 +97,6 @@ a {
 
   .uch_rab_obertka {
     width: 100%;
-
   }
 
   .menuElement {
@@ -120,9 +117,8 @@ a {
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* начало меню*/
 
-    /* начало меню*/
-  
   .menu-link,
   .menu-opener,
   .menu-opener:hover,
@@ -137,7 +133,7 @@ a {
     transition-timing-function: ease-out;
   }
 
-    .menu {
+  .menu {
     background: rgba(95, 158, 160, 1);
     height: 50px;
     position: fixed;
@@ -148,7 +144,7 @@ a {
     z-index: 1;
   }
 
-   .menu-inner {
+  .menu-inner {
     display: flex;
     flex-direction: row;
     height: 100%;
@@ -156,7 +152,6 @@ a {
     margin: 0;
     padding: 0;
   }
-
 
   .menu-link {
     color: rgb(36, 33, 33);
@@ -183,7 +178,7 @@ a {
     color: rgba(95, 158, 160, 1) !important;
   }
 
-/* конец меню*/
+  /* конец меню*/
 
   .myBodyStyle {
     position: relative;
@@ -194,7 +189,6 @@ a {
 
   .uch_rab_obertka {
     width: 80%;
-
   }
   .menuElement {
     padding: 5px;
@@ -372,9 +366,8 @@ a {
     font-size: 14pt;
   }
 
-    .uch_rab_obertka {
+  .uch_rab_obertka {
     width: 90%;
-
   }
 
   .container1 {
