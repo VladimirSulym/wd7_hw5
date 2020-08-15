@@ -380,7 +380,6 @@ a {
   }
 
   /* начало меню*/
-
   .menu-link,
   .menu-opener,
   .menu-opener:hover,
@@ -431,15 +430,19 @@ a {
   .menu-opener-inner::before {
     transform: translateY(-15px);
   }
+
   .menu-opener-inner::after {
     transform: translateY(5px);
   }
+
   .menu-opener-inner.active {
     background: transparent;
   }
+
   .menu-opener-inner.active::before {
     transform: rotate(-45deg);
   }
+
   .menu-opener-inner.active::after {
     transform: translateY(-10px) rotate(45deg);
   }
@@ -454,9 +457,11 @@ a {
     width: 0rem;
     z-index: 1;
   }
+
   .menu.active {
     width: 94vw;
   }
+
   .menu.active .menu-link {
     color: rgb(17, 17, 17);
   }

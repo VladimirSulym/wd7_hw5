@@ -55,29 +55,6 @@
       </ul>
     </nav>
 
-    <script>
-      const toggle = () => {
-        var activeClass = "active";
-
-        if (
-          document.querySelector(".menu-opener").classList.contains(activeClass)
-        ) {
-          document
-            .querySelector(".menu-opener-inner")
-            .classList.remove(activeClass);
-          document.querySelector(".menu-opener").classList.remove(activeClass);
-          document.querySelector(".menu").classList.remove(activeClass);
-        } else {
-          document
-            .querySelector(".menu-opener-inner")
-            .classList.add(activeClass);
-          document.querySelector(".menu-opener").classList.add(activeClass);
-          document.querySelector(".menu").classList.add(activeClass);
-        }
-      };
-      document.querySelector(".menu-opener").onclick = toggle;
-    </script>
-
     <div class="myBodyStyle">
       <div class="container1">
         <div>
@@ -366,5 +343,27 @@
         mollitia repellat eos hic dicta enim ad.
       </div>
     </div>
+    <script>
+      const toggle = () => {
+        var activeClass = "active";
+
+        if (
+                document.querySelector(".menu-opener").classList.contains(activeClass)
+        ) {
+          document
+                  .querySelector(".menu-opener-inner")
+                  .classList.remove(activeClass);
+          document.querySelector(".menu-opener").classList.remove(activeClass);
+          document.querySelector(".menu").classList.remove(activeClass);
+        } else {
+          document
+                  .querySelector(".menu-opener-inner")
+                  .classList.add(activeClass);
+          document.querySelector(".menu-opener").classList.add(activeClass);
+          document.querySelector(".menu").classList.add(activeClass);
+        }
+      };
+      document.querySelector(".menu-opener").onclick = toggle;
+    </script>
   </body>
 </html>
